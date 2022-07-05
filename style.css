@@ -22,7 +22,7 @@ h1 {
     font-size: 35px;
 }
 
-p {
+.text-1 {
     padding-left: 35%;
     padding-right: 35%;
     padding-bottom: 2%;
@@ -45,8 +45,18 @@ a {
     text-align: center;
 }
 
-.text {
+.text-2 {
+    padding-left: 24%;
+    padding-right: 24%;
     color: gray;
+    padding-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+span {
+    color: aqua;
+    font-weight: bold;
 }
 
 ul {
@@ -81,4 +91,59 @@ input {
 hr {
     width: 35%;
     margin-bottom: 30px;
+}
+
+.plan {
+    margin-top: 140px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-3 {
+    padding-left: 24%;
+    padding-right: 24%;
+    color: gray;
+    padding-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.boxes {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 15%;
+    height: 90px;
+    margin-right: 120px;
+}
+
+.box-1 {
+    width: 15%;
+    height: 270px;
+    margin-left: 380px;
+    background-color: azure;
+}
+
+.box-2 {
+    width: 15%;
+    height: 270px;
+    margin-left: 40px;
+    background-color: pink;
+}
+
+.box-3 {
+    width: 15%;
+    height: 270px;
+    margin-left: 40px;
+    background-color: papayawhip;
+}
+
+.box-text {
+    margin: auto;
+    padding: 10px 25px;
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
 }
