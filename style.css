@@ -9,11 +9,10 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    background-attachment: fixed;
 }
 
 .banner-heading {
-    padding-top: 120px;
+    padding-top: 110px;
     text-align: center;
     color: white;
 }
@@ -24,10 +23,9 @@ h1 {
 }
 
 p {
-    padding-left: 36%;
-    padding-right: 36%;
+    padding-left: 35%;
+    padding-right: 35%;
     padding-bottom: 2%;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
@@ -37,7 +35,50 @@ a {
     color: white;
     margin: 10px 20px;
     padding: 10px;
-    /* background-image: linear-gradient(rgba(51, 145, 182, 0.684), rgba(137, 211, 218, 0.67)); */
     background-color: aqua;
     border-radius: 4px;
+}
+
+.donation {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text {
+    color: gray;
+}
+
+ul {
+    display: flex;
+    margin-left: 460px;
+}
+
+ul li {
+    width: 50px;
+    height: 40px;
+    padding: 30px 15px 5px;
+    margin-left: 20px;
+    list-style-type: none;
+    background-color: rgb(242, 241, 241);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: dimgray;
+}
+
+.active {
+    border: 2px solid aqua;
+    background-color: rgb(223, 248, 248);
+    color: aqua;
+}
+
+input {
+    border: 0px solid white;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+hr {
+    width: 35%;
+    margin-bottom: 30px;
 }
