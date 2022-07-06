@@ -91,7 +91,7 @@ input {
 }
 
 hr {
-    width: 35%;
+    width: 40%;
     margin-bottom: 30px;
 }
 
@@ -200,11 +200,7 @@ img {
     background-size: 150%;
 }
 
-.news-1 h3 {
-    font-size: 20px;
-}
-
-.news-2 h3 {
+h3 {
     font-size: 20px;
 }
 
